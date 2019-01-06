@@ -6,7 +6,6 @@ let i = 0;
 
 const rainbow = blinkt => {
   const cancelMe = setInterval(() => {
-    console.log("Still running")
     hue = i % 360;
     for (let x = 0; x < 8; x++) {
       const offset = x * spacing;
